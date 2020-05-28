@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+font-family: 'alex_brushregular', Arial, sans-serif;
+font-size: 40px;
+text-align: center;
+margin-top: 30px;
+color:#1C153D;
+}
+
+h5{
+  font-family: 'Oswald';font-size: 16px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Raleway';font-size: 13px;
+  text-align: center;
+  line-height: 30px;
+ 
+}
+#one {
+	font-family: 'Mukta';font-size: 13px;
+}
+#two{
+    font-family: 'Monserrat';font-size: 13px;
+}
+#three{
+     font-family: 'Yanone Kaffeesatz';font-size: 15px;
+}
+
+#four{
+    font-family: 'Mukta';font-size: 13px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ul {
+ font-family: 'Mukta';font-size: 13px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(12,12,62,100);
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
